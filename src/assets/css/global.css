@@ -1,0 +1,16 @@
+:root {
+    --vermelho: #CA0000;
+    --verde: #01B013;
+    --azul: #0C5BD0;
+    --azul-claro: #D7F8FF;
+    --branco: #FFFFFF;
+    --cinza-100: #292929;
+    --cinza-escuro: #505050;
+    --cinza-50: #D2D2D2;
+    --cinza-claro: #E6E6E6;
+    --background: #D9D9D9;
+}
+
+body {
+    background-color: var(--background);
+}
