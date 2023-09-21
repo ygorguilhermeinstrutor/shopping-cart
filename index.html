@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/assets/css/normalize.css">
+    <link rel="stylesheet" href="./src/assets/css/global.css">
+    <link rel="stylesheet" href="./src/assets/css/main/carrinho.css">
+    <link rel="stylesheet" href="./src/assets/css/main/botao_confirmar.css">
+    <link rel="stylesheet" href="./src/assets/css/main/container_confirmar.css">
+    <link rel="stylesheet" href="./src/assets/css/main/container_produtos.css">
+    <link rel="stylesheet" href="./src/assets/css/main/produto_card_carrinho.css">
+    
 </head>
 <body>
     <header>
@@ -21,5 +36,46 @@
             Card Produto 2
         </div>
     </main>
+
+    <section class="carrinho">
+        <div>
+            <h2>Itens no carrinho 2</h2>
+            <div class="container_produtos">
+                <div class="produto_card_carrinho">
+                    <img src="./src/assets/image/002.png" alt="" srcset="">
+
+                    <div class="corpo_card_carrinho">
+                        <h2>Contra peso Star Wars</h2>
+                        <p><span>R$</span> 9.99</p>
+
+                        <i class="excluir">
+                            <img src="./src/assets/image/excluir.png" alt="" srcset="">
+                        </i>
+
+                        <div class="quantidade_itens">
+                            <button class="btn-minus">
+                                <img src="./src/assets/icons/minus.png" alt="" width="20">
+                            </button>
+
+                            <input type="text" value="1" style="width: 25px;">
+
+                            <button class="btn-plus">
+                                <img src="./src/assets/icons/plus.png" alt="" height="20">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container_confirmar">
+            <p>Total: 19.98</p>
+            <button class="botao_confirmar">
+                Confirmar
+            </button>
+        </div>
+    </section>
 </body>
 </html>

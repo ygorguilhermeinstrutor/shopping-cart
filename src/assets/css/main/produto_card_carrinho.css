@@ -1,0 +1,37 @@
+.produto_card_carrinho {
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--branco);
+    overflow: hidden;
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+.corpo_card_carrinho {
+    padding: 5px;
+}
+.corpo_card_carrinho h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.corpo_card_carrinho p, 
+.corpo_card_carrinho h2 {
+    margin: 0;
+}
+.corpo_card_carrinho p {
+    font-size: 14px;
+    font-weight: 600;
+}
+.corpo_card_carrinho p span {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.produto_card_carrinho .excluir {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
